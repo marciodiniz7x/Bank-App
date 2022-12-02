@@ -95,12 +95,23 @@ body {
 .bot-icones {
     display: flex;
     position: relative;
-    top: 20px;
-    border: 1px solid white;
+    height: 110px;
+    
+    border: 1px solid rgb(103, 252, 4);
 }
-.botIcon {
-    width: 40px;
-    padding: 5px;
+
+.botIcon { 
+    
+}
+
+.icone-home {
+    width: 50px;
+    height: 110px;
+    border: 1px solid aquamarine;
+    background-image: url(./images/iconeHome.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
 }
 
 /* ///////// */
