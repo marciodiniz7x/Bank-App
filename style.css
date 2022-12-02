@@ -79,14 +79,15 @@ body {
     margin-top: 25px;
     width: 370px;
     height: 650px;
-    border: 1px solid orange;
+    border: 1px solid rgb(235, 2, 235);
 
 }
 
 /* Ícones abaixo */
 .bot-icons {
-    width: 340px;
-    height: 200px;
+    margin-top: 12px;
+    width: 400px;
+    height: 110px;
     background-color: rgb(38, 38, 51);
 }
 
@@ -94,9 +95,19 @@ body {
 /* ///////// */
 /* Tela 02 */
 .aparelho2 {
+    overflow: hidden;
     margin-top: 20px;
     width: 400px;
     height: 820px;
     background-color: rgb(21, 21, 22);
     border-radius: 45px;
+}
+
+.tela2 {
+    position: relative;
+    margin-top: 25px;
+    width: 370px;
+    height: 650px;
+    border: 1px solid orangered;
+
 }
