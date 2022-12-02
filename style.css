@@ -28,10 +28,11 @@ body {
 /* ///////// */
 /* Tela 01 */
 .aparelho {
+    overflow: hidden;
     margin-top: 20px;
     width: 400px;
     height: 820px;
-    background-color: black;
+    background-color: rgb(21, 21, 22);
     border-radius: 45px;
 }
 
@@ -72,6 +73,23 @@ body {
     margin-left: 280px;
 }
 
+/* Ícones Meio */
+.tela1 {
+    position: relative;
+    margin-top: 25px;
+    width: 370px;
+    height: 650px;
+    border: 1px solid orange;
+
+}
+
+/* Ícones abaixo */
+.bot-icons {
+    width: 340px;
+    height: 200px;
+    background-color: rgb(38, 38, 51);
+}
+
 
 /* ///////// */
 /* Tela 02 */
@@ -79,6 +97,6 @@ body {
     margin-top: 20px;
     width: 400px;
     height: 820px;
-    background-color: black;
+    background-color: rgb(21, 21, 22);
     border-radius: 45px;
 }
