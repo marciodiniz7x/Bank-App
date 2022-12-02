@@ -24,6 +24,9 @@ body {
     justify-content: center;
     row-gap: 1px;
 }
+
+/* ///////// */
+/* Tela 01 */
 .aparelho {
     margin-top: 20px;
     width: 400px;
@@ -31,6 +34,47 @@ body {
     background-color: black;
     border-radius: 45px;
 }
+
+/* Ícones no topo */
+.top-icons {
+    top: 15px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid white;
+    width: 320px;
+    height: 50px;
+}
+.wifi {
+    position: absolute;
+    width: 26px;
+}
+.dados {
+    position: absolute;
+    width: 20px;
+    margin-left: 35px;
+}
+.bluet {
+    position: absolute;
+    width: 18px;
+    margin-left: 70px;
+}
+.hora {
+    position: absolute;
+    margin-left: 220px;
+    color: white;
+    
+    font-size: 18px;
+}
+.bateria {
+    position: absolute;
+    margin-top: 3px;
+    width: 30px;
+    margin-left: 280px;
+}
+
+
+/* ///////// */
+/* Tela 02 */
 .aparelho2 {
     margin-top: 20px;
     width: 400px;
