@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(45deg, rgb(82, 14, 172),
     rgb(255, 6, 180));
+    /* background-color: rgb(94, 103, 133); */
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -16,4 +17,24 @@ body {
     text-align: center;
     margin-top: 20px;
     font-family: sans-serif;
+}
+
+.aparelhos {
+    display: flex;
+    justify-content: center;
+    row-gap: 1px;
+}
+.aparelho {
+    margin-top: 20px;
+    width: 400px;
+    height: 820px;
+    background-color: black;
+    border-radius: 45px;
+}
+.aparelho2 {
+    margin-top: 20px;
+    width: 400px;
+    height: 820px;
+    background-color: black;
+    border-radius: 45px;
 }
