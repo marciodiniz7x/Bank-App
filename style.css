@@ -84,13 +84,24 @@ body {
 }
 
 /* Ícones abaixo */
-.bot-icons {
+.bot-area {
+    
     margin-top: 12px;
     width: 400px;
     height: 110px;
-    background-color: rgb(38, 38, 51);
+    background-color: rgb(49, 49, 58);
 }
 
+.bot-icones {
+    display: flex;
+    position: relative;
+    top: 20px;
+    border: 1px solid white;
+}
+.botIcon {
+    width: 40px;
+    padding: 5px;
+}
 
 /* ///////// */
 /* Tela 02 */
