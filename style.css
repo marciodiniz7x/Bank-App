@@ -4,7 +4,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background: linear-gradient(45deg, rgb(82, 14, 172),
+    rgb(255, 6, 180));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .titulo {
+    color: white;
     text-align: center;
     margin-top: 20px;
     font-family: sans-serif;
