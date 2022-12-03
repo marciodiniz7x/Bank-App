@@ -10,6 +10,7 @@ body {
     /* background-color: rgb(94, 103, 133); */
     background-repeat: no-repeat;
     height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .titulo {
@@ -87,9 +88,17 @@ body {
     position: relative;
     width: 370;
     height: 100px;
-    background-color: #142450;
-    border-radius: 20px;
+    padding: 10px;
     border: 1px solid coral;
+}
+.data {
+    color: #6C7496;
+    font-size: 14px;
+}
+.voce {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
 }
 
 /* Ícones abaixo */
