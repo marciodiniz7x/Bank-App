@@ -89,29 +89,63 @@ body {
     margin-top: 12px;
     width: 400px;
     height: 110px;
-    background-color: rgb(49, 49, 58);
+    background-color: #1C1D2F;
 }
 
 .bot-icones {
     display: flex;
     position: relative;
     height: 110px;
-    
-    border: 1px solid rgb(103, 252, 4);
+    width: 370px;
+    /* border: 1px solid rgb(103, 252, 4); */
 }
 
 .botIcon { 
     
 }
 
+.traco-home {
+    z-index: 99;
+    width: 40px;
+    height: 4px;
+    background-color: #d000fc;
+    box-shadow: 1px 1px 10px 1px #d000fc;
+}
 .icone-home {
     width: 50px;
     height: 110px;
-    border: 1px solid aquamarine;
+    /* border: 1px solid rgb(127, 168, 255); */
     background-image: url(./images/iconeHome.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 70%;
+    background-size: 60%;
+}
+.icone-carteira {
+    width: 50px;
+    height: 110px;
+    /* border: 1px solid rgb(127, 168, 255); */
+    background-image: url(./images/iconeCarteiraCinza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.icone-rend {
+    width: 50px;
+    height: 110px;
+    /* border: 1px solid rgb(127, 168, 255); */
+    background-image: url(./images/iconeRendimentoCinza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+}
+.icone-perfil {
+    width: 50px;
+    height: 110px;
+    /* border: 1px solid rgb(127, 168, 255); */
+    background-image: url(./images/iconePerfilCinza.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
 }
 
 /* ///////// */
