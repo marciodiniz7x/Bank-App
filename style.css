@@ -32,7 +32,7 @@ body {
     margin-top: 20px;
     width: 400px;
     height: 820px;
-    background-color: rgb(21, 21, 22);
+    background-color: #121423;
     border-radius: 45px;
 }
 
@@ -84,7 +84,12 @@ body {
 }
 
 .saudacao {
-    
+    position: relative;
+    width: 370;
+    height: 100px;
+    background-color: #142450;
+    border-radius: 20px;
+    border: 1px solid coral;
 }
 
 /* Ícones abaixo */
@@ -93,7 +98,7 @@ body {
     margin-top: 12px;
     width: 400px;
     height: 110px;
-    background-color: #1C1D2F;
+    background-color: #142450;
 }
 
 .bot-icones {
