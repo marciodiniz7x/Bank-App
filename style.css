@@ -102,9 +102,12 @@ body {
     font-size: 20px;
 }
 .foto-inicio {
-    width: 70px;
-    height: 70px;
-    border: 1px solid red;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 0;
+    margin-top: -55px;
 }
 
 /* Ícones abaixo */
