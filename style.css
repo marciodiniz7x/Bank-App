@@ -63,8 +63,8 @@ body {
 .hora {
     position: absolute;
     margin-left: 220px;
+    margin-top: -2px;
     color: white;
-    
     font-size: 18px;
 }
 .bateria {
