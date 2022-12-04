@@ -15,6 +15,6 @@ const mes = pegaData.getMonth();
 
 const meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
 
-const semana = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"]
+const semana = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
 
 data.innerHTML = `${semana[diaSemana]}, ${diaMes} `
