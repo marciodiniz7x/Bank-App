@@ -13,8 +13,8 @@ const diaMes = ("00" + pegaData.getDate()).slice(-2);
 //
 const mes = pegaData.getMonth();
 
-const meses = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
+const meses = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
 
 const semana = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
 
-data.innerHTML = `${semana[diaSemana]}, ${diaMes} `
+data.innerHTML = `${semana[diaSemana]}, ${diaMes} ${meses[mes]}, 2022 `
