@@ -110,6 +110,24 @@ body {
     background-size: 100%;
 }
 
+
+.saldo {
+    position: relative;
+    width: 370;
+    height: 190px;
+    padding: 10px;
+    border: 1px solid greenyellow;
+}
+.valor-saldo {
+    text-align: center;
+    font-size: 30px;
+}
+.texto-saldo {
+    text-align: center;
+    color: #6C7496;
+    margin-top: 10px;
+}
+
 /* Ícones abaixo */
 .bot-area {
     
