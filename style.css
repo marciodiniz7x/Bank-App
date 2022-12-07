@@ -10,7 +10,7 @@ body {
     /* background-color: rgb(94, 103, 133); */
     background-repeat: no-repeat;
     height: 100vh;
-    font-family: 'Bebas Neue';
+    font-family: 'BR Cobane';
     font-weight: 300;
     color: white;
 }
@@ -65,7 +65,7 @@ body {
 .hora {
     position: absolute;
     margin-left: 220px;
-    margin-top: -2px;
+    margin-top: 2px;
     color: white;
     font-size: 18px;
 }
@@ -89,7 +89,7 @@ body {
     position: relative;
     width: 370;
     height: 90px;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid coral;
 }
 .data {
@@ -107,7 +107,7 @@ body {
     border-radius: 50%;
     margin-right: 0;
     margin-top: -55px;
-    background-image: url(./images/foto3.jpg);
+    background-image: url(./images/foto2.jpg);
     background-size: 100%;
 }
 
@@ -117,16 +117,19 @@ body {
     width: 370;
     height: 190px;
     padding: 10px;
-    border: 1px solid greenyellow;
+    border: 1px solid rgb(47, 255, 203);
 }
 .valor-saldo {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+    color: rgb(47, 255, 210);
 }
 .texto-saldo {
     text-align: center;
     color: #6C7496;
     margin-top: 10px;
+    font-family: 'Br Cobane';
 }
 
 /* Ícones abaixo */
