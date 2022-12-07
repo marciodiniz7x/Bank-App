@@ -117,13 +117,13 @@ body {
     width: 370;
     height: 190px;
     padding: 10px;
-    border: 1px solid rgb(47, 255, 203);
+    border: 1px solid rgb(47, 255, 158);
 }
 .valor-saldo {
     text-align: center;
     font-size: 40px;
     font-family: 'Bebas Neue';
-    color: rgb(47, 255, 210);
+    color: rgb(47, 255, 168);
 }
 .texto-saldo {
     text-align: center;
