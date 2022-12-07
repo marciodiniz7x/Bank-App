@@ -10,7 +10,8 @@ body {
     /* background-color: rgb(94, 103, 133); */
     background-repeat: no-repeat;
     height: 100vh;
-    font-family: 'billcorporatenarrowW00-medium';
+    font-family: 'Bebas Neue';
+    font-weight: 300;
     color: white;
 }
 
