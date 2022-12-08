@@ -132,6 +132,15 @@ body {
     font-family: 'Br Cobane';
 }
 
+.renda-gasto {
+    
+    display: flex;
+    position: relative;
+    width: 370px;
+    height: 90px;
+    border: 1px solid red;
+}
+
 /* Ícones abaixo */
 .bot-area {
     
