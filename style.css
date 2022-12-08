@@ -150,6 +150,7 @@ body {
     border-radius: 20px;
 }
 .icone-gasto {
+    text-align: center;
     width: 40px;
     height: 40px;
     border-radius: 10px;
@@ -158,6 +159,16 @@ body {
     background-position: center;
     background-size: 80%;
 }
+.texto-valor-gasto {
+    
+}
+.texto-gasto {
+
+}
+.valor-gasto {
+    color: white;
+}
+
 .renda {
     width: 150px;
     height: 70px;
