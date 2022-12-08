@@ -142,10 +142,20 @@ body {
     border: 1px solid red;
 }
 .gasto {
+    
     width: 150px;
     height: 70px;
     background-color: #142450;
     border-radius: 20px;
+}
+.icone-gasto {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #434578;
+    background-image: url(./images/setaRed.png);
+    background-position: center;
+    background-size: 80%;
 }
 .renda {
     width: 150px;
