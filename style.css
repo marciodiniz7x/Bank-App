@@ -116,7 +116,7 @@ body {
     position: relative;
     width: 370;
     height: 190px;
-    
+    margin-top: 5px;
     border: 1px solid rgb(47, 255, 158);
 }
 .valor-saldo {
@@ -133,17 +133,24 @@ body {
 }
 
 .renda-gasto {
+    align-items: center;
     margin-top: 10px;
     display: flex;
     position: relative;
-    width: 300px;
+    width: 350px;
     height: 90px;
     border: 1px solid red;
 }
 .gasto {
-    width: 100px;
+    width: 150px;
     height: 70px;
-    background-color: #142450;
+    background-color: #d000fc;
+    border-radius: 20px;
+}
+.renda {
+    width: 150px;
+    height: 70px;
+    background-color: #d000fc;
     border-radius: 20px;
 }
 
