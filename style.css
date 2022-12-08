@@ -160,7 +160,10 @@ body {
     background-size: 80%;
 }
 .texto-valor-gasto {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
 }
 .texto-gasto {
     color: #6C7496;
