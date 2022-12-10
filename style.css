@@ -269,7 +269,7 @@ body {
     background-color: #d000fc;
     background-image: url(./images/card-pix.png);
     background-repeat: no-repeat;
-    background-position: bottom 25% left 15%;
+    background-position: bottom 20% left 10%;
     background-size: 40%;
 }
 .card-cartoes {
@@ -278,6 +278,10 @@ body {
     height: 70px;
     border-radius: 7px;
     background-color: #d000fc;
+    background-image: url(./images/card-cartao.png);
+    background-repeat: no-repeat;
+    background-position: bottom 20% left 10%;
+    background-size: 45%;
 }
 .pagar-boleto {
     width: 70px;
