@@ -35,16 +35,16 @@ body {
     margin-top: 20px;
     width: 400px;
     height: 820px;
-    background-color: #121423;
+    background-color: #1a1d30;
     border-radius: 45px;
 }
 
 /* Ícones no topo */
 .top-icons {
-    top: 15px;
+    top: 20px;
     overflow: hidden;
     position: relative;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 320px;
     height: 22px;
 }
@@ -64,24 +64,24 @@ body {
 }
 .hora {
     position: absolute;
-    margin-left: 220px;
+    margin-left: 226px;
     margin-top: 4px;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
 }
 .bateria {
     position: absolute;
     margin-top: 3px;
     width: 30px;
-    margin-left: 280px;
+    margin-left: 286px;
 }
 
 /* Ícones Meio */
 .tela1 {
     position: relative;
-    margin-top: 25px;
+    margin-top: 45px;
     width: 370px;
-    height: 650px;
+    height: 635px;
     border: 1px solid rgb(235, 2, 235);
 }
 
@@ -90,7 +90,7 @@ body {
     width: 370;
     height: 90px;
     padding: 20px;
-    border: 1px solid coral;
+    /* border: 1px solid coral; */
 }
 .data {
     color: #6C7496;
@@ -101,14 +101,46 @@ body {
     color: white;
     font-size: 20px;
 }
-.foto-inicio {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    margin-right: 0;
-    margin-top: -55px;
-    background-image: url(./images/eu.png);
-    background-size: 100%;
+.top-menu {
+    display: flex;
+    width: 130px;
+    height: 30px;
+
+    margin-top: -40px;
+    margin-left: 200px;
+}
+.search-icon {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    background-image: url(./images/searchIcon.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.notification-icon {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    background-image: url(./images/notificationIcon.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.settings-icon {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    background-image: url(./images/settingsIcon.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 
@@ -117,59 +149,69 @@ body {
     width: 370;
     height: 190px;
     margin-top: 5px;
-    border: 1px solid rgb(47, 255, 158);
+    /* border: 1px solid rgb(47, 255, 158); */
 }
 .valor-saldo {
     text-align: center;
     font-size: 40px;
     font-family: 'Bebas Neue';
-    color: rgb(47, 255, 168);
+    
+    color: #20c911;
 }
 .texto-saldo {
     text-align: center;
     color: #6C7496;
-    margin-top: 10px;
+    margin-top: 1px;
     font-family: 'Br Cobane';
 }
 
 .renda-gasto {
     align-items: center;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     position: relative;
     width: 350px;
     height: 90px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+
 }
 .gasto {
-    align-items: center;
-    display: flex;
     width: 150px;
     height: 70px;
     background-color: #142450;
     border-radius: 20px;
 }
+
+.flex-gasto {
+    align-items: center;
+    justify-items: left;
+    display: flex;
+    width: 122px;
+    height: 70px;
+    background-color: #142450;
+    border-radius: 20px;
+}
+
 .icone-gasto {
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 10px;
-    background-color: #33367e;
+    background-color: #2c2e68;
     background-image: url(./images/setaRed.png);
     background-position: center;
-    background-size: 80%;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
-.texto-valor-gasto {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 15px;
-}
+
 .texto-gasto {
     color: #6C7496;
+    font-size: 14px;
 }
 .valor-gasto {
-    color: white;
+    color: rgb(250, 100, 100);
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 .renda {
@@ -177,6 +219,38 @@ body {
     height: 70px;
     background-color: #142450;
     border-radius: 20px;
+}
+
+.flex-renda {
+    align-items: center;
+    justify-items: left;
+    display: flex;
+    width: 122px;
+    height: 70px;
+    background-color: #142450;
+    border-radius: 20px;
+}
+
+.icone-renda {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2c2e68;
+    background-image: url(./images/setaGreen.png);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+
+.texto-renda {
+    color: #6C7496;
+    font-size: 14px;
+}
+.valor-renda {
+    color: #20c911;
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 /* Ícones abaixo */
@@ -251,15 +325,15 @@ body {
     margin-top: 20px;
     width: 400px;
     height: 820px;
-    background-color: rgb(21, 21, 22);
+    background-color: #1a1d30;
     border-radius: 45px;
 }
 
 .tela2 {
     position: relative;
-    margin-top: 25px;
+    margin-top: 45px;
     width: 370px;
-    height: 650px;
+    height: 635px;
     border: 1px solid orangered;
 
 }
