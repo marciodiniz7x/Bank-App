@@ -263,6 +263,11 @@ body {
     height: 70px;
     border: 1px solid;
 }
+.card-cartoes {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+}
 
 /* Ícones abaixo */
 .bot-area {
