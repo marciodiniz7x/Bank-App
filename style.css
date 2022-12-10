@@ -257,34 +257,30 @@ body {
     display: flex;
     width: 340px;
     height: 70px;
-   
+    margin-top: 20px;
 }
 
 .card-pix {
     width: 70px;
     height: 70px;
-    
     border-radius: 7px;
     background-color: #d000fc;
 }
 .card-cartoes {
     width: 70px;
     height: 70px;
-
     border-radius: 7px;
     background-color: #d000fc;
 }
 .pagar-boleto {
     width: 70px;
     height: 70px;
-    border: 1px solid;
     border-radius: 7px;
     background-color: #d000fc;
 }
 .investimentos {
     width: 70px;
     height: 70px;
-    border: 1px solid;
     border-radius: 7px;
     background-color: #d000fc;
 }
