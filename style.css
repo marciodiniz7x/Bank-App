@@ -412,5 +412,12 @@ body {
 }
 .nome-banco {
     position: absolute;
+    margin-top: -175px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+.form-area {
+    
 }
 
