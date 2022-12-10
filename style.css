@@ -143,7 +143,6 @@ body {
     cursor: pointer;
 }
 
-
 .saldo {
     position: relative;
     width: 370;
@@ -251,6 +250,18 @@ body {
     color: #20c911;
     font-size: 16px;
     margin-top: 5px;
+}
+
+/* Cards Menu */
+.flex-cards-menu {
+    width: 350px;
+    height: 70px;
+    border: 1px solid;
+}
+.card-pix {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
 }
 
 /* Ícones abaixo */
