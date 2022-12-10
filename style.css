@@ -254,6 +254,7 @@ body {
 
 /* Cards Menu */
 .flex-cards-menu {
+    display: flex;
     width: 350px;
     height: 70px;
     border: 1px solid;
