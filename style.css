@@ -382,11 +382,9 @@ body {
     border-radius: 45px;
 }
 
-.tela2 {
-    position: relative;
-    margin-top: 45px;
-    width: 370px;
-    height: 635px;
-    border: 1px solid orangered;
-
+.cabec-area {
+    margin-top: -25px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid;
 }
