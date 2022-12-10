@@ -383,8 +383,16 @@ body {
 }
 
 .cabec-area {
+    overflow: hidden;
     margin-top: -25px;
     width: 400px;
-    height: 400px;
+    height: 300px;
     border: 1px solid;
+}
+
+.circle {
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(180deg, #6C7496, #444a69);
+    
 }
