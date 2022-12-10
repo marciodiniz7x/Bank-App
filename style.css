@@ -255,19 +255,38 @@ body {
 /* Cards Menu */
 .flex-cards-menu {
     display: flex;
-    width: 350px;
+    width: 340px;
     height: 70px;
-    border: 1px solid;
+   
 }
+
 .card-pix {
     width: 70px;
     height: 70px;
-    border: 1px solid;
+    
+    border-radius: 7px;
+    background-color: #d000fc;
 }
 .card-cartoes {
     width: 70px;
     height: 70px;
+
+    border-radius: 7px;
+    background-color: #d000fc;
+}
+.pagar-boleto {
+    width: 70px;
+    height: 70px;
     border: 1px solid;
+    border-radius: 7px;
+    background-color: #d000fc;
+}
+.investimentos {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 7px;
+    background-color: #d000fc;
 }
 
 /* Ícones abaixo */
