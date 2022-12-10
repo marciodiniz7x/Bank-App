@@ -258,20 +258,22 @@ body {
     width: 340px;
     height: 70px;
     margin-top: 20px;
+    font-size: 12px;
 }
 
 .card-pix {
-    
+    position: relative;
     width: 70px;
     height: 70px;
     border-radius: 7px;
     background-color: #d000fc;
     background-image: url(./images/card-pix.png);
     background-repeat: no-repeat;
-    background-position: top 15% left 15%;
+    background-position: bottom 25% left 15%;
     background-size: 40%;
 }
 .card-cartoes {
+    position: relative;
     width: 70px;
     height: 70px;
     border-radius: 7px;
