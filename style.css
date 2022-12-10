@@ -261,14 +261,15 @@ body {
 }
 
 .card-pix {
+    
     width: 70px;
     height: 70px;
     border-radius: 7px;
     background-color: #d000fc;
     background-image: url(./images/card-pix.png);
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: 60%;
+    background-position: top 15% left 15%;
+    background-size: 40%;
 }
 .card-cartoes {
     width: 70px;
