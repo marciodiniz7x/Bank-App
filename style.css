@@ -263,37 +263,43 @@ body {
 
 .card-pix {
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 7px;
-    background-color: #d000fc;
+    background-color: #fd6022;
     background-image: url(./images/card-pix.png);
+    background-repeat: no-repeat;
+    background-position: bottom 20% left 10%;
+    background-size: 35%;
+}
+.card-cartoes {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border-radius: 7px;
+    background-color: #fd6022;
+    background-image: url(./images/card-cartao.png);
     background-repeat: no-repeat;
     background-position: bottom 20% left 10%;
     background-size: 40%;
 }
-.card-cartoes {
+.pagar-boleto {
     position: relative;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     border-radius: 7px;
-    background-color: #d000fc;
-    background-image: url(./images/card-cartao.png);
+    background-color: #fd6022;
+    background-image: url(./images/card-boleto.png);
     background-repeat: no-repeat;
     background-position: bottom 20% left 10%;
-    background-size: 45%;
-}
-.pagar-boleto {
-    width: 70px;
-    height: 70px;
-    border-radius: 7px;
-    background-color: #d000fc;
+    background-size: 40%;
 }
 .investimentos {
-    width: 70px;
-    height: 70px;
+    position: relative;
+    width: 75px;
+    height: 75px;
     border-radius: 7px;
-    background-color: #d000fc;
+    background-color: #fd6022;
 }
 
 /* Ícones abaixo */
