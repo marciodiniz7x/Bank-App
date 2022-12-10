@@ -265,7 +265,10 @@ body {
     height: 70px;
     border-radius: 7px;
     background-color: #d000fc;
-    
+    background-image: url(./images/card-pix.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 60%;
 }
 .card-cartoes {
     width: 70px;
