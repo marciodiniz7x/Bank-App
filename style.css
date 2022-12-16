@@ -480,6 +480,8 @@ body {
     border: 1px solid;
 }
 .biometria-imagem {
-    
+    width: 280px;
+    height: 100px;
+    background-image: url(./images/biometria.png);
 }
 
