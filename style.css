@@ -441,3 +441,15 @@ body {
     margin-top: 6px;
 }
 
+.senha-area {
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    vertical-align: center;
+}
+.senha-texto {
+    margin-top: 6px;
+}
+
