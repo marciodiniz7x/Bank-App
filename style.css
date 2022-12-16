@@ -424,3 +424,13 @@ body {
     border: 1px solid;
 }
 
+.login-texto {
+    font-size: 20px;
+    font-weight: bold;
+}
+.seu-nome {
+    width: 200px;
+    height: 20px;
+    border: 1px solid;
+}
+
