@@ -421,16 +421,17 @@ body {
     text-align: center;
     width: 400px;
     height: 400px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .login-texto {
-    font-size: 20px;
+    margin-top: 30px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 .nome-area {
-    margin-top: 20px;
+    margin-top: 30px;
     width: 200px;
     height: 30px;
     border: 1px solid;
@@ -451,5 +452,19 @@ body {
 }
 .senha-texto {
     margin-top: 6px;
+}
+
+.entrar-area {
+    margin-top: 40px;
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #fd6022;
+    background-color: #fd6022;
+    
+    vertical-align: center;
+}
+.entrar-texto {
+    margin-top: 14px;
 }
 
