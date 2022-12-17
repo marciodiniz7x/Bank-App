@@ -472,6 +472,7 @@ body {
 
 .biometria-area {
     display: flex;
+    
     margin-top: 40px;
     width: 280px;
     height: 100px;
@@ -480,8 +481,13 @@ body {
     border: 1px solid;
 }
 .biometria-imagem {
-    width: 280px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-image: url(./images/biometria.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.biometria-texto {
+
 }
 
