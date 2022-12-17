@@ -504,6 +504,7 @@ div.fundo2 {
     background-color: #fd6022;
     
     vertical-align: center;
+    cursor: pointer;
 }
 .entrar-texto {
     margin-top: 14px;
@@ -554,4 +555,5 @@ div.fundo2 {
     border-radius: 25px;
    
     background-color: #fd6022;
+    cursor: pointer;
 }
