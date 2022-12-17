@@ -472,22 +472,22 @@ body {
 
 .biometria-area {
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
     margin-top: 40px;
     width: 280px;
     height: 100px;
     border-radius: 25px;
     vertical-align: center;
-    border: 1px solid;
 }
 .biometria-imagem {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background-image: url(./images/biometria.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .biometria-texto {
-
+    margin-left: -20px;
 }
 
