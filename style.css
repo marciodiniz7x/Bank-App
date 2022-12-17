@@ -305,6 +305,7 @@ div.fundo2 {
     background-repeat: no-repeat;
     background-position: bottom 20% left 10%;
     background-size: 35%;
+    cursor: pointer;
 }
 .card-cartoes {
     position: relative;
@@ -316,6 +317,7 @@ div.fundo2 {
     background-repeat: no-repeat;
     background-position: bottom 20% left 10%;
     background-size: 40%;
+    cursor: pointer;
 }
 .pagar-boleto {
     position: relative;
