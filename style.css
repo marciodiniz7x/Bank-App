@@ -464,7 +464,7 @@ div.fundo2 {
 }
 
 .login-texto {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 30px;
     font-weight: bold;
 }
@@ -479,7 +479,7 @@ div.fundo2 {
 }
 .nome-texto {
     margin-top: 14px;
-    opacity: 50%;
+    color: #6C7496;
 }
 
 .senha-area {
@@ -492,7 +492,7 @@ div.fundo2 {
 }
 .senha-texto {
     margin-top: 14px;
-    opacity: 50%;
+    color: #6C7496;
 }
 
 .entrar-area {
@@ -510,11 +510,22 @@ div.fundo2 {
     margin-top: 14px;
 }
 
+.caixa {
+    margin-top: 10px;
+    display: flex;
+    width: 220px;
+   
+}
+.checkbox-texto {
+    margin-top: 3px;
+}
+
 .biometria-area {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+    margin-left: 50px;
     width: 280px;
     height: 100px;
     border-radius: 25px;
@@ -533,7 +544,6 @@ div.fundo2 {
 
 .rodape-login {
     display: flex;
-    margin-top: 20px;
     width: 400px;
     height: 105px;
 }
