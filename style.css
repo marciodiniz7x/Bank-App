@@ -524,7 +524,7 @@ div.fundo2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 50px;
     width: 280px;
     height: 100px;
@@ -544,6 +544,7 @@ div.fundo2 {
 
 .rodape-login {
     display: flex;
+    margin-top: 5px;
     width: 400px;
     height: 105px;
 }
