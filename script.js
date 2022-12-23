@@ -3,8 +3,8 @@ const data = document.querySelector('.data');
 const hora = document.querySelector('.hora');
 const hora2 = document.querySelector('.hora2');
 
-const login = document.querySelector('.login-area');
-const loginSobreposto = document.querySelector('.nome-area-sobreposto');
+const nome = document.querySelector('.nome-texto');
+const nomeSobreposto = document.querySelector('.nome-area-sobreposto');
 
 //////////////////
 ///// Script /////
@@ -34,7 +34,11 @@ hora2.innerHTML = `${pegaHora}:${pegaMinuto}`;
 
 
 // Eventos
-login.addEventListener('click', () => {
-    login.classList.add('sumir');
+nomeSobreposto.addEventListener('click', () => {
+    nome.classList.add('sumir');
 });
+
+nomeSobreposto.addEventListener('focusout', () => {
+    nome.classList.remove('sumir');
+})
 

@@ -470,7 +470,6 @@ div.fundo2 {
 }
 
 .nome-area {
-    position: absolute;
     margin-top: 30px;
     margin-left: 60px;
     width: 280px;
@@ -480,12 +479,15 @@ div.fundo2 {
     vertical-align: center;
 }
 .nome-texto {
+
     margin-top: 14px;
     color: #6C7496;
 }
 .nome-area-sobreposto {
-    
-    margin-top: 30px;
+    opacity: 30%;
+    position: absolute;
+    margin-top: -31px;
+    margin-left: -140px;
     width: 280px;
     height: 45px;
     border-radius: 25px;
@@ -497,10 +499,7 @@ div.fundo2 {
     font-family: 'BR Cobane';
     font-weight: 300;
     color: white;
-}
-.nome-texto-sobreposto {
-    margin-top: 14px;
-    color: #6C7496;
+
 }
 
 .senha-area {
@@ -591,5 +590,5 @@ div.fundo2 {
 }
 
 .sumir {
-    display: none;
+    visibility: hidden;
 }
