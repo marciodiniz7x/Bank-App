@@ -590,5 +590,5 @@ div.fundo2 {
 }
 
 .sumir {
-    visibility: hidden;
+    opacity: 0%;
 }

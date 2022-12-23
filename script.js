@@ -34,11 +34,13 @@ hora2.innerHTML = `${pegaHora}:${pegaMinuto}`;
 
 
 // Eventos
-nomeSobreposto.addEventListener('click', () => {
+nomeSobreposto.addEventListener('focusin', () => {
     nome.classList.add('sumir');
+    nomeSobreposto.classList.remove('sumir');
 });
 
 nomeSobreposto.addEventListener('focusout', () => {
     nome.classList.remove('sumir');
+    nomeSobreposto.classList.add('sumir');
 })
 
