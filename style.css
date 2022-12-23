@@ -491,6 +491,10 @@ div.fundo2 {
     border: 1px solid #fd6022;
     background-color: #1a1d30;
     vertical-align: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'BR Cobane';
+    font-weight: 300;
     color: white;
 }
 .nome-texto-sobreposto {
