@@ -35,5 +35,6 @@ hora2.innerHTML = `${pegaHora}:${pegaMinuto}`;
 
 // Eventos
 login.addEventListener('click', () => {
-    
+    login.classList.add('sumir');
 });
+
