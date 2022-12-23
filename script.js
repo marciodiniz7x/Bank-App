@@ -3,6 +3,8 @@ const data = document.querySelector('.data');
 const hora = document.querySelector('.hora');
 const hora2 = document.querySelector('.hora2');
 
+const login = document.querySelector('.nome-texto-sobreposto');
+
 //////////////////
 ///// Script /////
 
@@ -28,3 +30,7 @@ const pegaMinuto = ("00" + pegaData.getMinutes()).slice(-2);
 data.innerHTML = `${semana[diaSemana]}, ${diaMes} ${meses[mes]}, ${ano} `;
 hora.innerHTML = `${pegaHora}:${pegaMinuto}`;
 hora2.innerHTML = `${pegaHora}:${pegaMinuto}`;
+
+
+// Eventos
+login.addEventListener('')

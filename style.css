@@ -582,3 +582,7 @@ div.fundo2 {
     background-color: #fd6022;
     cursor: pointer;
 }
+
+.sumir {
+    display: none;
+}
