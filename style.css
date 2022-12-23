@@ -481,6 +481,18 @@ div.fundo2 {
     margin-top: 14px;
     color: #6C7496;
 }
+.nome-area-sobreposto {
+    margin-top: 30px;
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #fd6022;
+    vertical-align: center;
+}
+.nome-texto-sobreposto {
+    margin-top: 14px;
+    color: #6C7496;
+}
 
 .senha-area {
     margin-top: 15px;
