@@ -3,7 +3,8 @@ const data = document.querySelector('.data');
 const hora = document.querySelector('.hora');
 const hora2 = document.querySelector('.hora2');
 
-const login = document.querySelector('.nome-texto-sobreposto');
+const login = document.querySelector('.login-area');
+const loginSobreposto = document.querySelector('.nome-area-sobreposto');
 
 //////////////////
 ///// Script /////

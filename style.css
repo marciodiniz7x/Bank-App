@@ -489,7 +489,9 @@ div.fundo2 {
     height: 45px;
     border-radius: 25px;
     border: 1px solid #fd6022;
+    background-color: #1a1d30;
     vertical-align: center;
+    color: white;
 }
 .nome-texto-sobreposto {
     margin-top: 14px;
