@@ -45,6 +45,5 @@ nomeSobreposto.addEventListener('focusout', () => {
         nome.classList.remove('sumir');
         nomeSobreposto.classList.add('sumir');
     } 
-    
 })
 
