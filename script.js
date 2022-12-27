@@ -41,8 +41,10 @@ nomeSobreposto.addEventListener('focusin', () => {
 });
 
 nomeSobreposto.addEventListener('focusout', () => {
-    nome.classList.remove('sumir');
-    nomeSobreposto.classList.add('sumir');
+    if (nomeSobreposto.value == "") {
+        nome.classList.remove('sumir');
+        nomeSobreposto.classList.add('sumir');
+    } 
     
 })
 
