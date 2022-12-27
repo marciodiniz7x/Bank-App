@@ -43,6 +43,6 @@ nomeSobreposto.addEventListener('focusin', () => {
 nomeSobreposto.addEventListener('focusout', () => {
     nome.classList.remove('sumir');
     nomeSobreposto.classList.add('sumir');
-    nomeSobreposto.value = 'Seu nome de usuário';
+    
 })
 
