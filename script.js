@@ -37,11 +37,12 @@ hora2.innerHTML = `${pegaHora}:${pegaMinuto}`;
 nomeSobreposto.addEventListener('focusin', () => {
     nome.classList.add('sumir');
     nomeSobreposto.classList.remove('sumir');
-    nomeSobreposto.innerHTML = ' ';
+    nomeSobreposto.value = ' ';
 });
 
 nomeSobreposto.addEventListener('focusout', () => {
     nome.classList.remove('sumir');
     nomeSobreposto.classList.add('sumir');
+    nomeSobreposto.value = 'Seu nome de usuário';
 })
 
