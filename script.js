@@ -51,7 +51,6 @@ nomeSobreposto.addEventListener('focusout', () => {
 senhaSobreposto.addEventListener('focusin', () => {
     senha.classList.add('sumir');
     senhaSobreposto.classList.remove('sumir');
-    
 })
 
 
