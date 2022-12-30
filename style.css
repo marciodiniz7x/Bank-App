@@ -515,6 +515,23 @@ div.fundo2 {
     color: #6C7496;
 }
 
+.senha-area-sobreposto {
+    position: absolute;
+    margin-top: -31px;
+    margin-left: -140px;
+    width: 280px;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #fd6022;
+    background-color: #1a1d30;
+    vertical-align: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'BR Cobane';
+    font-weight: 300;
+    color: #6C7496;
+}
+
 .entrar-area {
     margin-top: 40px;
     width: 280px;
