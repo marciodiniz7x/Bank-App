@@ -7,7 +7,7 @@ const nome = document.querySelector('.nome-texto');
 const nomeSobreposto = document.querySelector('.nome-area-sobreposto');
 
 const senha = document.querySelector('.senha-texto');
-const senhaSobreposto = document.querySelector('.senha-texto-sobreposto');
+const senhaSobreposto = document.querySelector('.senha-area-sobreposto');
 
 //////////////////
 ///// Script /////
