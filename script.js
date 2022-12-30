@@ -32,7 +32,6 @@ data.innerHTML = `${semana[diaSemana]}, ${diaMes} ${meses[mes]}, ${ano} `;
 hora.innerHTML = `${pegaHora}:${pegaMinuto}`;
 hora2.innerHTML = `${pegaHora}:${pegaMinuto}`;
 
-
 // Eventos
 nomeSobreposto.addEventListener('focusin', () => {
     nome.classList.add('sumir');
