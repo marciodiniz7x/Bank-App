@@ -48,9 +48,10 @@ nomeSobreposto.addEventListener('focusout', () => {
     } 
 })
 
-senhaSobreposto.addEventListener('click', () => {
+senhaSobreposto.addEventListener('focusin', () => {
     if (nomeSobreposto.value == "") {
-        senha.classList.remove('sumir');
+        senha.classList.add('sumir');
+        senhaSobreposto.classList.remove('sumir');
     }
 })
 
