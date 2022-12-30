@@ -213,6 +213,7 @@ div.fundo2 {
     height: 70px;
     background-color: #142450;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .flex-gasto {
@@ -252,6 +253,7 @@ div.fundo2 {
     height: 70px;
     background-color: #142450;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .flex-renda {

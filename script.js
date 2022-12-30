@@ -53,5 +53,11 @@ senhaSobreposto.addEventListener('focusin', () => {
     senhaSobreposto.classList.remove('sumir');
 })
 
+senhaSobreposto.addEventListener('focusout', () => {
+    if (senhaSobreposto.value == "") {
+        senha.classList.remove('sumir');
+        senhaSobreposto.classList.add('sumir');
+    }
+})
 
 
