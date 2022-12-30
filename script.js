@@ -6,6 +6,9 @@ const hora2 = document.querySelector('.hora2');
 const nome = document.querySelector('.nome-texto');
 const nomeSobreposto = document.querySelector('.nome-area-sobreposto');
 
+const senha = document.querySelector('.senha-texto');
+const senhaSobreposto = document.querySelector('.senha-texto-sobreposto');
+
 //////////////////
 ///// Script /////
 
@@ -43,5 +46,11 @@ nomeSobreposto.addEventListener('focusout', () => {
         nome.classList.remove('sumir');
         nomeSobreposto.classList.add('sumir');
     } 
+})
+
+senhaSobreposto.addEventListener('click', () => {
+    if (nomeSobreposto.value == "") {
+        senha.classList.remove('sumir');
+    }
 })
 
