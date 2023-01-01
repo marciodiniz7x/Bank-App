@@ -46,18 +46,16 @@ nomeSobreposto.addEventListener('focusout', () => {
         nome.classList.remove('sumir');
         nomeSobreposto.classList.add('sumir');
     } 
-})
+});
 
 senhaSobreposto.addEventListener('focusin', () => {
     senha.classList.add('sumir');
     senhaSobreposto.classList.remove('sumir');
-})
+});
 
 senhaSobreposto.addEventListener('focusout', () => {
     if (senhaSobreposto.value == "") {
         senha.classList.remove('sumir');
         senhaSobreposto.classList.add('sumir');
     }
-})
-
-
+});
